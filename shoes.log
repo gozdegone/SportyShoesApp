@@ -1,0 +1,25 @@
+2023-05-03 01:17:15.733  INFO 32925 --- [main] com.api.sportyShoes.SportyShoes          : Starting SportyShoes using Java 18.0.2 on 192.168.1.39 with PID 32925 (/Users/gozdeniz/workspace/SportyShoesApp/target/classes started by gozdeniz in /Users/gozdeniz/workspace/SportyShoesApp)
+2023-05-03 01:17:15.740  INFO 32925 --- [main] com.api.sportyShoes.SportyShoes          : No active profile set, falling back to 1 default profile: "default"
+2023-05-03 01:17:16.651  INFO 32925 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 01:17:16.732  INFO 32925 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2023-05-03 01:17:17.575  INFO 32925 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 01:17:17.586  INFO 32925 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 01:17:17.587  INFO 32925 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-03 01:17:17.696  INFO 32925 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/v1]     : Initializing Spring embedded WebApplicationContext
+2023-05-03 01:17:17.696  INFO 32925 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1820 ms
+2023-05-03 01:17:17.726  INFO 32925 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 01:17:18.022  INFO 32925 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 01:17:18.036  INFO 32925 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:65af68a5-502e-4617-96d6-eaec7b3b03e6'
+2023-05-03 01:17:18.284  INFO 32925 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 01:17:18.387  INFO 32925 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-03 01:17:18.646  INFO 32925 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 01:17:18.854  INFO 32925 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-03 01:17:19.590  INFO 32925 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 01:17:19.604  INFO 32925 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 01:17:19.649  WARN 32925 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 01:17:20.427  INFO 32925 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6369d01c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54e680fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b80b41d, org.springframework.security.web.header.HeaderWriterFilter@5737d116, org.springframework.security.web.authentication.logout.LogoutFilter@14e83c9d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@22dc9d46, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31dd0e2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50e0b472, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ea0c99c, org.springframework.security.web.session.SessionManagementFilter@4229b92c, org.springframework.security.web.access.ExceptionTranslationFilter@7512a9a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30811f91]
+2023-05-03 01:17:20.806  INFO 32925 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/v1'
+2023-05-03 01:17:20.819  INFO 32925 --- [main] com.api.sportyShoes.SportyShoes          : Started SportyShoes in 6.263 seconds (JVM running for 7.578)
+2023-05-03 01:17:31.731  INFO 32925 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/v1]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 01:17:31.732  INFO 32925 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 01:17:31.733  INFO 32925 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
